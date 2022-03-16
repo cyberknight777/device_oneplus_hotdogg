@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
+# fstab
+PRODUCT_PACKAGES += \
+    fstab.qcom_ramdisk
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
