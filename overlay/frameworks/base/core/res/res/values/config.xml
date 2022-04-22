@@ -406,8 +406,8 @@
         <item>sensorRadius</item>
       -->
         <item>720</item>
-        <item>2728</item>
-        <item>110</item>
+        <item>2436</item>
+        <item>116</item>
      </integer-array>
 
      <!-- Whether device has physical tri state switch -->
