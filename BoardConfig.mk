@@ -8,8 +8,6 @@
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/hotdogg
 
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # A/B
 AB_OTA_PARTITIONS += \
     odm \
