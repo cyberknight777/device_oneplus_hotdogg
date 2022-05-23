@@ -421,4 +421,7 @@
     <!-- Enable face auth only when swiping security view -->
     <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
 
+    <!-- Enable Screen Off FOD Toggle -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+
 </resources>
