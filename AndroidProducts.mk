@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_hotdogg.mk
+    $(LOCAL_DIR)/yaap_hotdogg.mk
