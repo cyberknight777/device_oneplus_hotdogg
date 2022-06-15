@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hotdog device
 $(call inherit-product, device/oneplus/hotdog/device.mk)
 
+# Inherit OnePlus Apps
+$(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
+
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
