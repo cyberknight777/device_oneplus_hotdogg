@@ -18,6 +18,8 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
+vendor/lib64/libarcsoft_dualcam_refocus_preview.so
+vendor/lib64/libarcsoft_portrait_distortion_correction.so
 vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
 vendor/etc/camera/ashdr/ncf_pack.ncf
@@ -125,8 +127,19 @@ vendor/lib64/hw/goodix.fod.msmnile.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libgf_ud_hal.so
 
+# IPA firmware
+vendor/firmware/ipa_fws.mdt
+
+# NFC
+vendor/etc/libnfc-nxp_RF.conf
+vendor/lib/libpn553_fw.so
+
 # ODM feature list
 odm/etc/odm_feature_list
+
+# RIL
+vendor/bin/hw/qcrild
+vendor/lib64/libril-qc-hal-qmi.so
 
 # Sensors
 vendor/etc/sensors/config/ak991x_0.json
