@@ -1,4 +1,4 @@
-persist.radio.multisim.config=dsds
+persist.radio.multisim.config=ssss
 persist.vendor.diag.max.size=500
 persist.vendor.ssr.restart_level=ALL_ENABLE
 persist.vendor.radio.5g=1
