@@ -410,4 +410,7 @@
         <item>110</item>
      </integer-array>
 
+    <!-- Enable Screen Off FOD Toggle -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+
 </resources>
