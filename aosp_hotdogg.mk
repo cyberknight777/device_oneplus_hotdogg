@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from hotdog device
-$(call inherit-product, device/oneplus/hotdog/device.mk)
+# Inherit from hotdogg device
+$(call inherit-product, device/oneplus/hotdogg/device.mk)
 
 # Inherit OnePlus Apps
 $(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
@@ -18,10 +18,10 @@ $(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_hotdog
-PRODUCT_DEVICE := hotdog
+PRODUCT_NAME := aosp_hotdogg
+PRODUCT_DEVICE := hotdogg
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := HD1917
+PRODUCT_MODEL := HD1925
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
