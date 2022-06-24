@@ -21,6 +21,9 @@ AB_OTA_PARTITIONS += \
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# Kernel
+TARGET_KERNEL_CONFIG := dragonheart_defconfig
+
 # OPGallery
 TARGET_SHIPS_OOSGALLERY := true
 
