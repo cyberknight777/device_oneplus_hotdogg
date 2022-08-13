@@ -7,12 +7,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/hotdogg/hotdogg-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus7tpronr/oneplus7tpronr-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-aospa
 
 # Audio
 PRODUCT_COPY_FILES += \

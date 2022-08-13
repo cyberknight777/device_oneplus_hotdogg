@@ -6,7 +6,7 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/hotdogg
+DEVICE_PATH := device/oneplus/oneplus7tpronr
 
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
