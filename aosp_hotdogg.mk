@@ -15,7 +15,7 @@ $(call inherit-product, device/oneplus/hotdogg/device.mk)
 $(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit Google Carrier Settings (for out of box 5g support).
 $(call inherit-product, vendor/csettings/carriersettings.mk)
