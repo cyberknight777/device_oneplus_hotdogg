@@ -18,7 +18,6 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
-lib64/libcameraservice.so
 vendor/lib64/libarcsoft_dualcam_refocus_preview.so
 vendor/lib64/libarcsoft_portrait_distortion_correction.so
 vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
